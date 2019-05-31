@@ -70,6 +70,15 @@
                 android:layout_above="@id/btn_start_list_activity"
                 style="?attr/borderlessButtonStyle"/>
 
+        <Button
+                android:id="@+id/btn_start_lifecycle_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="@string/btn_open_lifecycle_activity"
+                android:layout_above="@id/btn_start_observable_activity"
+                style="?attr/borderlessButtonStyle"/>
+
     </RelativeLayout>
 
 </layout>

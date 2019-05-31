@@ -5,6 +5,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import com.webprog26.architecturecomponents.data.User
 import com.webprog26.architecturecomponents.ext.showToast
+import com.webprog26.architecturecomponents.handling_lifecycles.LifecyclesActivity
 import kotlin.reflect.KClass
 
 class Presenter(val mainView: MainView?) {
@@ -21,5 +22,9 @@ class Presenter(val mainView: MainView?) {
 
     fun startObservableActivity(): Unit {
         ObservableBindingActivity.start(mActivityContext)
+    }
+
+    fun startLifecycleActivity(): Unit {
+        LifecyclesActivity.start(mActivityContext)
     }
 }

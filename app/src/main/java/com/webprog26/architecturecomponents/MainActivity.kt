@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity(), MainView {
         binding.executePendingBindings()
         btn_start_list_activity.setOnClickListener { presenter.startListActivity() }
         btn_start_observable_activity.setOnClickListener { presenter.startObservableActivity() }
+        btn_start_lifecycle_activity.setOnClickListener { presenter.startLifecycleActivity() }
 
     }
 
