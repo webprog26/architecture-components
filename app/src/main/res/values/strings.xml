@@ -4,4 +4,6 @@
     <string name="btn_click">Click!</string>
     <string name="btn_open_list_activity">Open list Activity</string>
     <string name="btn_open_observable_activity">Open Observable Activity</string>
+    
+    <string name="btn_open_lifecycle_activity">Open Lifecycle Activity</string>
 </resources>
